@@ -1,4 +1,4 @@
-# Lista de cosas que no se haran
+Lista de cosas que no se haran
 
 - 0x03. C - Debugging 
 - Betty
