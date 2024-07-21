@@ -7,6 +7,7 @@
 - en el else final al no tener if(definase como funcion que realiza una accion en el contenido de los parentesis), simplemente se colocaran las llaves de entrada y salida {} para declarar el else.
 */
 
+
 int main(void) 
 {
     int n;
