@@ -14,14 +14,13 @@ int main(void)
 
     for( combnum = '0'; combnum <= '9'; combnum++)
     {
-        putchar(combnum);
+    putchar(combnum);
     if (combnum != 9)
     {
-        putchar(',');
-        putchar(' ');
-    }}
+    putchar(',');
+    putchar(' ');
+    }
+    }
     putchar('\n');
     return (0);
-
-
 }
