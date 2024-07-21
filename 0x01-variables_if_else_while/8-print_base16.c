@@ -2,18 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 
+/* Consideraciones para con este programa
+1. verificar que dentro de las funciones esten las variables correctas, ya que al inicio presente un problema y no revise bien el codigo pensando que todo habia salido a la perfeccion.
+*/
 
 int main(void)
 {
     
-    char num; 
+    char numer; 
     char letr;
 
-    for( num = '0' ; num <= '9'; num++)
+    for( numer = '0' ; numer <= '9'; numer++)
     {
-    putchar(num);
+    putchar(numer);
     }
-    for( letr = 'a'; num <= 'f'; letr++)
+    for( letr = 'a'; letr <= 'f'; letr++)
     {
         putchar(letr);
     }
