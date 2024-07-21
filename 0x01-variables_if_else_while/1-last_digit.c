@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*Anotaciones de programa
--
--
+/* Anotaciones de programa
+- dependiendo del numero elegido sera dividido por el modulo de 10 y asi mismo sera impreso por la funcion printf.
+- para la funcion printf el especificador de formato %d: imprime un entero decimal.
+- para el especificador de formato tambien tenemos unas reglas, como se evidencio en cada linea se menciona %d dos veces, las cuales hacen referencia fuera de las comillas a las variables 1. n, 2. lastd como guia si se especifica un especificador de formato dentro de print f, se debe ingresar el valor del mismo, en este cado ambos %d serian n y lastd.
 */
 
 int main(void) 
