@@ -27,6 +27,5 @@ int main(void)
             printf("%d ", numero);
         }   
     }
-    printf("\n");
     return(0);
 }
