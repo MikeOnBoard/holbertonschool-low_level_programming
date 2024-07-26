@@ -2,7 +2,8 @@
 #include "main.h"
 
 /** Anotaciones para entender este programa
- * 
+ * el ejercicio de fizz buzz visto antes en python.
+ * resuelto.
  */
 
 int main(void)
