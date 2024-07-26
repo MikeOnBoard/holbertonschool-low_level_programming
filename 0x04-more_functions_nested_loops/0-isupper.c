@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /** Anotaciones para entender y recordar el programa...nunca hay que dejar de hacer las anotaciones, el entendimiento es mas poderoso que el saber, si escribo la informacion sin un sentido de entendimiento, es igual que si no supiera absolutamente nada!.
  * el entero c es recibido a modo de numeral del codigo ASCII.
@@ -18,7 +17,7 @@ int _isupper(int c)
 {
     if ( c >= 65 && c <= 90)
     {
-        return(1);
+    return(1);
     }
     return(0);
 }
