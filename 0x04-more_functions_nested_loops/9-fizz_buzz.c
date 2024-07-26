@@ -8,7 +8,7 @@
 int main(void)
 {
     int numero;
-    for ( numero = 1; numero < 100; numero++)
+    for ( numero = 1; numero <= 100; numero++)
     {
         if (numero % 3 == 0 && numero % 5 == 0)
         {
@@ -27,5 +27,6 @@ int main(void)
             printf("%d ", numero);
         }   
     }
+    printf("\n");
     return(0);
 }
