@@ -18,14 +18,14 @@
 
 void print_rev(char *s)
 {
-    int caracteres = 0, i;
-    while (s[caracteres] != '\0')
-    {
-        caracteres++;
-    }
-    for ( i = caracteres; i >= 0 ; i--)
-    {
-        _putchar(s[i]);
-    }
-    _putchar('\n');
+int caracteres = 0, i;
+while (s[caracteres] != '\0')
+{
+caracteres++;
+}
+for ( i = caracteres; i >= 0 ; i--)
+{
+_putchar(s[i]);
+}
+_putchar('\n');
 }
