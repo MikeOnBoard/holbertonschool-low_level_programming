@@ -8,7 +8,8 @@ char *leet(char *str)
 {
     char *p = str;
     char lookup[] = "aAeEoOtTlL";
-    char replace[] = "44370011";
+    char replace[] = "4433007711"; 
+
     for (; *p; p++)
     {
         int i;
@@ -21,5 +22,6 @@ char *leet(char *str)
             }
         }
     }
+
     return str;
 }
