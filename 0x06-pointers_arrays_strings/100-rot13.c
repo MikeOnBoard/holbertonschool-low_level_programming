@@ -30,6 +30,5 @@ char *rot13(char *str)
             }
            }
         }
-    str = startP;
-    return str;
+    return startP;
 }
