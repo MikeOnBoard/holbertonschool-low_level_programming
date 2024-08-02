@@ -27,11 +27,11 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-
+    char *ptr = src;
     while (n--)
     {
-        *dest = *src;
-        src++;
+        *dest = *ptr;
+        ptr++;
         dest++;
     }
     return dest;
